@@ -1,0 +1,22 @@
+h1 {
+   padding: 6px;
+   font-size: 20px;
+   background-color: rgb(214, 255, 181);
+}
+
+.block {
+   display: flex;
+   justify-content: space-around;
+   background-color: rgb(90, 90, 90);
+   padding: 10px 0;
+}
+
+.block__item {
+   flex: 0 1 300px;
+   padding: 30px 0;
+   border: 1px solid #ffff;
+   background-color: rgb(50, 73, 124);
+   text-align: center;
+   font-size: 17px;
+   color: #ffff;
+}
